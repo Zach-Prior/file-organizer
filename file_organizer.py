@@ -18,8 +18,6 @@ import sys
 from pathlib import Path
 
 
-#test commit, no real change
-
 # Category folder name -> set of extensions (lowercase, with leading dot).
 CATEGORIES = {
     "PDFs": {".pdf"},
