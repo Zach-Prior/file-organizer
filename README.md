@@ -22,3 +22,9 @@
 - Python 3.14.7 or newer.
 - Uses Pythons built in [argparse](https://docs.python.org/3/library/argparse.html), [shutil](https://docs.python.org/3/library/shutil.html), [sys](https://docs.python.org/3/library/sys.html), and [pathlib](https://docs.python.org/3/library/pathlib.html) modules
 - This script has no external dependencies.
+
+## Installation
+
+- Simply clone the repository by clicking the code button, copying the https link of the repository, and then pasting the link in your IDE of choice. 
+- Alternatively you can simply install the script istself. you can click the file_organizer.py file in the repository's home, and then click the download raw file button to download just the script.
+- In order to be ready to use the script, in your terminal you need to navigate to the directory where the script is located. If you cloned the whole repo, then simply navigate to the file-organizer directory in your terminal. If you copied the raw python file, you need to navigate to the directory wherever you downloaded the file.
