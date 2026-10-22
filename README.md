@@ -28,3 +28,23 @@
 - Simply clone the repository by clicking the code button, copying the https link of the repository, and then pasting the link in your IDE of choice. 
 - Alternatively you can simply install the script istself. you can click the file_organizer.py file in the repository's home, and then click the download raw file button to download just the script.
 - In order to be ready to use the script, in your terminal you need to navigate to the directory where the script is located. If you cloned the whole repo, then simply navigate to the file-organizer directory in your terminal. If you copied the raw python file, you need to navigate to the directory wherever you downloaded the file.
+
+## Usage
+
+- There are three ways to use this program.
+- If you wish to organize the current directory you are in then run:
+```
+python file_organizer.py
+```
+- This will run the program without moving the script file.
+
+- If you wish to organize a specific directory then run:
+```
+python file_organizer.py /path/to/directory
+```
+
+-If you wish to preview changes in a specific directory then run:
+```
+python file_organizer.py /path/to/directory --dry-run
+```
+
