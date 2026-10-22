@@ -13,3 +13,12 @@
     - Spreadsheets: .xls, .xlsx, .csv files
     - Archives: .zip, .rar, .tar, .gz files
     - Other: any files not listed will be put in a fallback directory
+- The script also will add numbered suffixes to files that share the same name.
+- The --dry-run arguement was also implemented in the program to allow a user to see the changes the program would make without actually changing the target directory. Running the command with this arguement will simply display the moves the program would make to the terminal.
+- Some additional features are that the script will preserve existing subdirectories already in your folder, the script also prevents itself from moving itself, and the the script also handles permissions and file operation errors.
+
+## Requirments
+
+- Python 3.14.7 or newer.
+- Uses Pythons built in [argparse](https://docs.python.org/3/library/argparse.html), [shutil](https://docs.python.org/3/library/shutil.html), [sys](https://docs.python.org/3/library/sys.html), and [pathlib](https://docs.python.org/3/library/pathlib.html) modules
+- This script has no external dependencies.
